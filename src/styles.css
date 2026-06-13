@@ -237,3 +237,153 @@ a{
     text-align: center;
     padding: 15px 0;
 }
+
+
+/* ALL COURSES CSS */
+
+.classgrid {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 2em;
+}
+
+.classitem {
+    border: 2px solid black;
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: transform 0.3s ease, background-color 0.3s ease
+}
+
+.classitem:hover {
+    background-color: #ec5008;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+.classheader {
+    background-color: #ddd;
+}
+
+.navline {
+    color: black;
+    padding: 20px 0 0 20px;
+    
+}
+
+.navline a{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;}
+
+.classheader h1{
+    width: fit-content;
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.classheader p{
+    color: black;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0 20px 20px 20px;
+}
+
+.democard {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+}
+
+.demovideo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: #ec5008;
+    height: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.demovideo:hover {
+    background-color: #ddd;
+    color: #ec5008;
+}
+
+.demovideo h1 {
+    color: inherit;
+}
+
+.demonotes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: #ec5008;
+    height: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.demonotes:hover {
+    background-color: #ddd;
+    color: #ec5008;
+}
+
+.demonotes h1 {
+    color: inherit;
+}
+
+.classvideo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px 150px 20px 150px;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.classvideo img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.classvideo-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.classvideo-content h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.classvideo-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
